@@ -275,7 +275,7 @@ public class SpotifyRepository {
             Artist artist = null;
             for(Artist a : artistAlbumMap.keySet())
             {
-                if(artistAlbumMap.get(a).contains(album)
+                if(artistAlbumMap.get(a).contains(album))
                 {
                     artist = a;
                     break;
